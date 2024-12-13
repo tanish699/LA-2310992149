@@ -1,0 +1,116 @@
+Below is a categorized list of common Linux terminal commands along with their uses:
+
+---
+
+### **File and Directory Management**
+1. **`ls`** - Lists files and directories in the current directory.
+2. **`cd [directory]`** - Changes the current directory to the specified one.
+3. **`pwd`** - Prints the current working directory.
+4. **`mkdir [directory]`** - Creates a new directory.
+5. **`rmdir [directory]`** - Removes an empty directory.
+6. **`rm [file/directory]`** - Removes files or directories (`-r` for recursive).
+7. **`cp [source] [destination]`** - Copies files or directories.
+8. **`mv [source] [destination]`** - Moves or renames files or directories.
+9. **`touch [file]`** - Creates an empty file or updates the timestamp.
+10. **`find [path] -name [name]`** - Searches for files or directories by name.
+
+---
+
+### **File Viewing and Editing**
+1. **`cat [file]`** - Displays file content.
+2. **`less [file]`** - Views file content page by page.
+3. **`more [file]`** - Similar to `less` but less interactive.
+4. **`nano [file]`** - Opens a file in the Nano text editor.
+5. **`vim [file]`** - Opens a file in the Vim text editor.
+6. **`head [file]`** - Displays the first few lines of a file.
+7. **`tail [file]`** - Displays the last few lines of a file.
+
+---
+
+### **File Permissions and Ownership**
+1. **`chmod [permissions] [file]`** - Changes file permissions.
+2. **`chown [user:group] [file]`** - Changes file ownership.
+3. **`ls -l`** - Lists files with detailed permissions.
+
+---
+
+### **Process Management**
+1. **`ps`** - Lists running processes.
+2. **`top`** - Displays real-time system processes.
+3. **`kill [PID]`** - Terminates a process by its Process ID.
+4. **`jobs`** - Lists background jobs.
+5. **`fg [job_id]`** - Brings a background job to the foreground.
+6. **`bg [job_id]`** - Resumes a suspended job in the background.
+
+---
+
+### **Networking**
+1. **`ping [host]`** - Checks the connectivity to a host.
+2. **`wget [url]`** - Downloads a file from a URL.
+3. **`curl [url]`** - Fetches data from a URL.
+4. **`ifconfig`** - Displays network interface configurations.
+5. **`netstat`** - Displays network connections.
+
+---
+
+### **System Monitoring**
+1. **`df -h`** - Displays disk space usage.
+2. **`du -sh [path]`** - Displays the size of a file or directory.
+3. **`uptime`** - Shows system uptime.
+4. **`free -m`** - Displays memory usage.
+5. **`who`** - Lists logged-in users.
+6. **`uname -a`** - Shows system information.
+
+---
+
+### **Archiving and Compression**
+1. **`tar -cvf archive.tar [files]`** - Creates an archive.
+2. **`tar -xvf archive.tar`** - Extracts an archive.
+3. **`gzip [file]`** - Compresses a file.
+4. **`gunzip [file]`** - Decompresses a file.
+
+---
+
+### **User Management**
+1. **`whoami`** - Displays the current user.
+2. **`id`** - Displays user ID and group ID.
+3. **`adduser [username]`** - Adds a new user.
+4. **`passwd [username]`** - Changes a user’s password.
+5. **`su [username]`** - Switches to another user account.
+6. **`sudo [command]`** - Executes a command with root privileges.
+
+---
+
+### **Package Management**
+- **For Debian-based systems (e.g., Ubuntu):**
+  1. **`apt-get update`** - Updates package lists.
+  2. **`apt-get upgrade`** - Upgrades installed packages.
+  3. **`apt-get install [package]`** - Installs a package.
+  4. **`apt-get remove [package]`** - Removes a package.
+
+- **For Red Hat-based systems (e.g., CentOS):**
+  1. **`yum update`** - Updates package lists.
+  2. **`yum install [package]`** - Installs a package.
+  3. **`yum remove [package]`** - Removes a package.
+
+---
+
+### **Search and Filters**
+1. **`grep [pattern] [file]`** - Searches for a pattern in a file.
+2. **`awk '{print $1}' [file]`** - Processes and extracts file data.
+3. **`sed 's/old/new/g' [file]`** - Edits file content using patterns.
+4. **`sort [file]`** - Sorts file lines.
+5. **`uniq`** - Removes duplicate lines from a sorted file.
+
+---
+
+### **Miscellaneous**
+1. **`history`** - Displays the command history.
+2. **`alias [alias_name]='[command]'`** - Creates a shortcut for a command.
+3. **`date`** - Displays or sets the system date.
+4. **`echo [text]`** - Prints text to the terminal.
+5. **`clear`** - Clears the terminal screen.
+
+---
+
+Would you like detailed examples for any of these commands?
