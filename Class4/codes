@@ -1,0 +1,30 @@
+FILE PERMISSIONS	
+
+1. User permission - rw
+2. Group Permission - r--
+3. Others Permission - r--
+
+**To give permission
+
+Here u stands for user , g for group and o for others
+
+**SYNTAX
+chmod u+(permission) , g+(permission), o+(permission)    
+
+for example
+chmod u+w,g+w,o-r file.txt
+
+**You can add + sign for adding/giving permission
+**To remove permission you need to add - sign ...The syntax remains same
+
+For example 
+chmod g-w demo.txt 
+
+**adding execute permission for removing write permission from the group 
+
+
+** To remove all permissions for every group (user, group, other) 
+chmod a=- demo.txt
+
+** Now user permissions to all groups
+chmod a=rwx demo.txt
