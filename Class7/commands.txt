@@ -1,0 +1,4 @@
+makdir - make directory
+cd - change directory
+cd .. - return to previous directory
+
